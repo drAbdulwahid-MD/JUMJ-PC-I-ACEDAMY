@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #0a9396;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+h2 {
+    color: #0a9396;
+}
+
+/* Collapsible Sections */
+.collapsible {
+    overflow: hidden;
+    max-height: 200px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.collapsible.expanded {
+    max-height: 1000px;
+}
+
+/* Images */
+.dynamic-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #005f73;
+    color: white;
+    padding: 10px;
+}
